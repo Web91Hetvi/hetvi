@@ -1,0 +1,2447 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Fenix&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.ar-one-sans {
+  font-family: "AR One Sans", sans-serif;
+}
+.brygada {
+  font-family: "Brygada 1918", serif;
+}
+.crimson-pro {
+  font-family: "Crimson Pro", serif;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.fenix {
+    font-family: "Fenix", serif;
+}
+
+.fw-800{font-weight: 800;}
+
+.color-492C76{color: #492C76;}
+.color-4B1596{color: #4B1596;}
+.color-020633{color: #020633;}
+.color-242424{color: #242424;}
+.color-4C4C4C{color: #4C4C4C;}
+
+.font-12{font-size: 12px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+.font-20{font-size: 20px;}
+.font-22{font-size: 22px;}
+.font-24{font-size: 24px;}
+.font-36{font-size: 36px;}
+
+.lh_21{line-height: 21px;}
+.lh_22{line-height: 22px;}
+.lh_25{line-height: 25px;}
+.lh_38{line-height: 38px;}
+.lh_42{line-height: 42px;}
+
+.semi{font-weight: 600;}
+
+body{
+    background-image: url('../images/body-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w-435{
+    width: 435px;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+.light_bgcolor{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    min-height: 100vh;
+}
+
+/* header */
+
+.header{
+    padding: 60px 0 35px;
+}
+.progressbar_title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #4B1596;
+}
+.step_progressbar{
+    background: #C5C5C5;
+    height: 5px;
+    width: 100%;
+    border-radius: 20px;
+}
+.progressbar_fill{
+    background: #452873;
+    width: 2%;
+    height: 5px;
+}
+
+
+/* quiz_stepv2 */
+
+.quiz_stepv2_content{
+    padding: 40px 0 20px;
+}
+.quiz_stepv2_img img{
+    box-shadow: 0 26px 40px 0px #4b15967a;
+    border-radius: 50%;
+    margin: 0 auto 50px;
+    display: block;
+}
+.quiz_stepv2_titel{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #511C99;
+    font-family: "Brygada 1918", serif;
+    text-align: center;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.quiz_stepv2_btn{
+    padding: 19px 50px !important;
+    margin-top: 25px !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Fenix&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.ar-one-sans {
+  font-family: "AR One Sans", sans-serif;
+}
+.brygada {
+  font-family: "Brygada 1918", serif;
+}
+.crimson-pro {
+  font-family: "Crimson Pro", serif;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.fenix {
+    font-family: "Fenix", serif;
+}
+
+.fw-800{font-weight: 800;}
+
+.color-492C76{color: #492C76;}
+.color-4B1596{color: #4B1596;}
+.color-020633{color: #020633;}
+.color-242424{color: #242424;}
+.color-4C4C4C{color: #4C4C4C;}
+
+.font-12{font-size: 12px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+.font-20{font-size: 20px;}
+.font-22{font-size: 22px;}
+.font-24{font-size: 24px;}
+.font-36{font-size: 36px;}
+
+.lh_21{line-height: 21px;}
+.lh_22{line-height: 22px;}
+.lh_25{line-height: 25px;}
+.lh_38{line-height: 38px;}
+.lh_42{line-height: 42px;}
+
+.semi{font-weight: 600;}
+
+body{
+    background-image: url('../images/body-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w-435{
+    width: 435px;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+.light_bgcolor{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    min-height: 100vh;
+}
+
+/* header */
+
+.header{
+    padding: 60px 0 35px;
+}
+.progressbar_title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #4B1596;
+}
+.step_progressbar{
+    background: #C5C5C5;
+    height: 5px;
+    width: 100%;
+    border-radius: 20px;
+}
+.progressbar_fill{
+    background: #452873;
+    width: 2%;
+    height: 5px;
+}
+
+
+/* quiz_stepv2 */
+
+.quiz_stepv2_content{
+    padding: 40px 0 20px;
+}
+.quiz_stepv2_img img{
+    box-shadow: 0 26px 40px 0px #4b15967a;
+    border-radius: 50%;
+    margin: 0 auto 50px;
+    display: block;
+}
+
+/* text rotate */
+.quiz_stepv2_titel{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #511C99;
+    font-family: "Brygada 1918", serif;
+    text-align: center;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.quiz_stepv2_btn{
+    padding: 19px 50px !important;
+    margin-top: 25px !important;
+}
+/* rotate text style */
+.rotate_text{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    color: #511C99;
+    font-family: "Crimson Pro", serif;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.rotate_text span{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slideUp 9s infinite ease-in-out;
+    will-change: transform, opacity;
+}
+
+.rotate_text span:nth-child(1) { animation-delay: 0s; }
+.rotate_text span:nth-child(2) { animation-delay: 3s; }
+.rotate_text span:nth-child(3) { animation-delay: 6s; }
+
+ @keyframes slideUp {
+    0%   { opacity: 0; transform: translateY(100%); }
+    10%  { opacity: 1; transform: translateY(0); }
+    30%  { opacity: 1; transform: translateY(0); }
+    40%  { opacity: 0; transform: translateY(-100%); }
+    100% { opacity: 0; }
+}
+
+/* money flow step */
+
+.money_flows_step, .year_change_step, .last_step, .last_stepv2{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    text-align: center;
+    min-height: 100vh;
+}
+.money_flow_img{
+    margin: 0 auto 15px
+}
+.money_flows_step .mb_25{
+    margin-bottom: 20px;
+}
+
+
+/* last stepv2 */
+
+.last_stepv2_icon{
+    margin: 0 auto 25px;
+}
+.mb_30{
+    margin-bottom: 30px;
+}
+.last_stepv2_bottom{
+    font-size: 20px;
+    line-height: 21px;
+    color: #4B1596;
+    font-family: "Crimson Pro", serif;
+    font-weight: 700;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+/* welcome step */
+
+.welcome_step{
+    padding-top: 150px;
+}
+.welcome_step_titel{
+    font-family: "Brygada 1918", serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #4B1596;
+    margin-bottom: 75px;
+}
+.welcome_step_logo{
+    width: 147px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* year step */
+
+.year_step_content{
+    padding: 0 4px;
+}
+.steps_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41.28px;
+    text-align: center;
+    font-family: "Brygada 1918", serif;
+    color: #452873;
+}
+.year_step_content .steps_title{
+    margin-bottom: 10px;
+}
+.steps_description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+}
+.year_calender{
+    margin: 30px auto 25px;
+}
+.steps_btn{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.5px;
+    letter-spacing: 2.4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(109.21deg, #4B1596 21.58%, #96A1D5 102.02%, #C7D3DA 168.35%);
+    border-radius: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 50px;
+    max-width: 328px;
+    margin: 0 auto;
+    transition: all 0.8s ease;
+}
+.steps_btn:hover{
+    transform: scale(1.1);
+
+}
+.steps_btn svg{
+    flex-shrink: 0;
+}
+.steps_btn:hover{
+    color: #fff;
+}
+
+/* start quiz step */
+
+.start_quiz_step{
+    padding: 0 8px 20px;
+}
+.start_quiz_step_content{
+    background: rgba(150, 161, 213, 0.3);
+    padding: 0px 10px 33px;
+    border-radius: 5px;
+    margin: 35px 0 30px;
+}
+.gredient-text{
+    background: linear-gradient(94.75deg, #452873 27.16%, #4B1596 143.44%);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.start_quiz_step_img{
+    text-align: center;
+    margin-bottom: -115px;
+}
+.start_quiz_step_content .steps_title{
+    margin-bottom: 7px;
+}
+.startquiz_step_btn{
+    margin-top: 25px;
+    padding: 19px 41px;
+}
+
+/* analysis question1 */
+
+.analysis_question1{
+    padding: 0 2px;
+}
+.analysis_question_title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-family: "Fenix", serif;
+    color: #020633;
+    margin-bottom: 35px;
+}
+.qutions_radios{
+    background: rgba(150, 161, 213, 0.3);
+    border-radius: 5px;
+    padding: 17px 20px;
+    min-height: 57px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.qutions_radios:hover{
+    transform: scale(1.04);
+}
+.qutions_radios .form-check-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    color: #020633;
+    position: relative;
+    z-index: 1;
+}
+.qutions_radios img{
+    position: relative;
+    z-index: 1;
+}
+.select_change_colorimg{
+    display: none !important;
+}
+.qutions_radios .form-check-input, .qutions_img_radios .form-check-input{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    position: absolute;
+    border: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.qutions_radios .form-check-input:checked[type=radio] {
+    background-image: none;
+    background-color: rgba(125, 115, 192, 1);
+}
+.qutions_radios .form-check-input:checked ~ .form-check-label, .qutions_img_radios .form-check-input:checked + .form-check-label{
+    color: #fff;
+    font-weight: 700;
+}
+.qutions_radios .form-check-input:checked ~ .select_change_colorimg{
+    display: block !important;
+}
+.qutions_radios .form-check-input:checked ~ .default_img{
+    display: none;
+}
+.form-check-input:focus{
+    box-shadow: unset;
+}
+
+/* analysis question2 */
+
+.analysis_question2{
+    padding: 0 2px;
+}
+.analysis_question2_content{
+    text-align: center;
+}
+.analysis_question2_title{
+    margin-bottom: 8px;
+}
+.qutions_img_radios_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0 33px;
+}
+.qutions_img_radios{
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+.qutions_img_radios .form-check-label{
+    background: rgba(150, 161, 213, 0.3);
+    border-radius: 5px;
+    padding: 14px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    color: #020633;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.qutions_img_radios img{
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin-top: 28px;
+    transition: 0.3s ease;
+}
+.analysis_question2 .qutions_img_radios img{
+    border-radius: 0 0 5px 5px;
+}
+.qutions_img_radios .form-check-input:checked[type=radio]{
+    background-image: unset;
+}
+.qutions_img_radios .form-check-input:checked + .form-check-label{
+    background: rgba(125, 115, 192, 1);
+}
+.qutions_img_radios:hover .form-check-label{
+    background: rgba(125, 115, 192, 1);
+}
+.qutions_img_radios:hover .form-check-label{
+    color: #fff;
+}
+.qutions_img_radios:hover .default_img{
+    display: none !important;
+}
+.qutions_img_radios:hover .select_change_colorimg{
+    display: block !important;
+}
+.form-control{
+    background-color: rgba(150, 161, 213, 0.3);
+    color: #4C4C4C;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border-radius: 5px;
+    border: none;
+    padding: 17px 18px;
+}
+.form-control::-webkit-input-placeholder{
+    color: #4c4c4c99;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border-radius: 5px;
+}
+.form-control::placeholder{
+    color: #4c4c4c99;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border-radius: 5px;
+}
+.form-control:focus {
+    color: #4C4C4C;
+    background-color: rgba(150, 161, 213, 0.6);
+    border-color: 0;
+    outline: 0;
+    box-shadow: unset;
+}
+.qution2_btn{
+    padding: 19px 25px;
+    margin-top: 25px;
+}
+.qutions_img_radios .form-check-input:checked + label .select_change_colorimg {
+  display: block !important;
+}
+
+.qutions_img_radios .form-check-input:checked + label .default_img {
+  display: none !important;
+}
+
+
+/* analysis question3 */
+
+.analysis_question3{
+    padding: 0 10px;
+    text-align: center;
+}
+.analysis_question3 .qutions_img_radios_row{
+    gap: 20px;
+}
+.analysis_question3 .qutions_img_radios{
+    width: 45%;
+    height: 100%;
+}
+.analysis_question3 .qutions_img_radios .form-check-label{
+    padding: 20px 10px 17px;
+    min-height: 206px;
+}
+.analysis_question3 .qutions_img_radios img{
+    margin: 30px auto 0;
+}
+.analysis_question3 .qutions_img_radios .form-check-input:checked + .form-check-label{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+/* analysis question4 */
+
+.analysis_question4{
+    padding: 0 30px;
+}
+.analysis_question4_title{
+    margin-bottom: 10px;
+}
+.analysis_question4_content{
+    padding-top: 25px;
+}
+.clock_timer{
+    margin: 15px 0 10px;
+}
+.qution_step_checkbox{
+    padding-left: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.qution_step_checkbox .form-check-label{
+    font-size: 12px;
+    line-height: 21px;
+    color: #4C4C4C;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    padding-left: 10px;
+}
+.qution_step_checkbox .form-check-input{
+    background-color: rgba(217, 220, 238, 1);
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border-radius: 2px;
+    border: 0;
+    flex-shrink: 0;
+}
+
+/* analysis question6 */
+
+.analysis_question6{
+    padding: 0 4px;
+} 
+.analysis_question6 .form-control{
+    margin: 10px 0 40px;
+}
+.analysis_question6_content > p.font-12{
+    font-size: 15px;
+}
+.analysis_question6_content > p svg{
+    padding-bottom: 2px;
+}
+
+/* analysis question7  */
+
+.analysis_question7{
+    padding: 0 4px;
+}
+.analysis_question7_title{
+    margin-bottom: 35px;
+}
+.analysis_question7 .qutions_radios, .analysis_question11 .qutions_radios{
+    justify-content: center;
+}
+.analysis_question7 .qutions_radios .form-check-input:checked + .form-check-label, .analysis_question11 .qutions_radios .form-check-input:checked + .form-check-label, .analysis_question12 .qutions_radios .form-check-label{
+    color: #fff;
+    font-weight: 600;
+}
+
+/* analysis question12 */
+
+.analysis_question12 .qutions_radios .form-check-label{
+    color: #12111C;
+    font-weight: 400;
+}
+
+
+/* analysis question16 */
+
+.analysis_question16 .qutions_img_radios .form-check-label{
+    font-size: 18px;
+}
+.analysis_question16_title{
+    margin-bottom: 35px;
+}
+.analysis_question16 .qutions_img_radios{
+    width: 43%;
+}
+.analysis_question16 .qutions_img_radios img{
+    margin: 35px auto 0;
+}
+.analysis_question16 .qutions_img_radios .form-check-input:checked + .form-check-label{
+    font-weight: 600;
+}
+
+/* analysis question19 */
+
+.analysis_question19{
+    padding: 0 10px;
+}
+
+/* analysis question21 */
+
+.analysis_question21 .qutions_img_radios_row {
+    gap: 20px;
+}
+.analysis_question21 .qutions_img_radios{
+    width: 45%;
+    height: 100%;
+}
+.analysis_question21 .qutions_img_radios .form-check-label{
+    padding: 0 0 15px;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.analysis_question21 .qutions_img_radios .form-check-label span{
+    font-size: 16px;
+}
+.analysis_question21 .qutions_img_radios img{
+    margin-top: 0;
+    border-radius: 5px 0 0 0;
+}
+
+/* analysis_question24 */
+
+.analysis_question24 .qutions_img_radios .form-check-label {
+    font-size: 18px;
+    min-height: 204px;
+    display: flex;
+    flex-direction: column;
+}
+.analysis_question24 .qutions_img_radios img {
+    margin: auto auto 0;
+}
+.analysis_question24 .qutions_img_radios{
+    width: 43%;
+}
+.analysis_question24 .qutions_img_radios .form-check-input:checked + .form-check-label {
+    font-weight: 600;
+}
+
+/* analysis question37 */
+
+.analysis_question37{
+    display: flex;
+    flex-direction: column;
+    min-height: 82vh;
+}
+.analysis_question37_flex_innerdiv{
+    flex: 1;
+}
+.analysis_question37_title{
+    margin-bottom: 20px;
+}
+.analysis_question37 .form-control{
+    margin: 10px 0 10px;
+}
+.analysis_question37 .px_10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.email_input_notetext{
+    font-size: 12px;
+    line-height: 14px;
+    color: #8C8A8A;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+.analysis_question37_bottom_text{
+    font-family: "Crimson Pro", serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #8C8A8A;
+    margin-bottom: 0;
+    padding: 10px 43px;
+}
+
+/* full body width steps */
+
+/* analysis question8 */
+
+.analysis_question8{
+    background: rgba(150, 161, 213, 0.6);
+    min-height: 100vh;
+    padding-top: 158px;
+}
+.analysis_hourglass_img{
+    margin: 50px auto 0;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+}
+.analysis_hourglass_img::after{
+    content: '';
+    background-image: url('../images/analysis-loader-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 302px;
+    height: 380px;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* hourglass animation */
+
+.hourglass{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    animation: rotateHourglass 3s ease-in-out infinite;
+}
+
+@keyframes rotateHourglass {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* analysis question9 */
+
+.analysis_question9{
+    background: rgba(150, 161, 213, 0.6);
+    padding: 158px 0 0;
+    min-height: 100vh;
+}
+.analysis_warning_img{
+    text-align: center;
+}
+
+/* analysis question10 */
+
+.analysis_question10{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    text-align: center;
+    min-height: 100vh;
+}
+.karmic_loop_img{
+    margin-bottom: 15px;
+}
+.mb_25{
+    margin-bottom: 25px;
+}
+.analysis_question10_desc{
+    margin: 0 auto 12px;
+    max-width: 400px;
+}
+.analysis_question10_desc:last-child{
+    margin-bottom: 0;
+}
+.qution10_btn{
+    padding: 19px 20px;
+    margin-top: 25px;
+}
+
+/* analysis question17 */
+
+.analysis_question17, .analysis_question27, .analysis_question35, .analysis_question36{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    min-height: 100vh;
+}
+.question17_pattern_img{
+    margin: 0 auto 15px;
+    display: block;
+}
+.shift_energies_img{
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    position: relative;
+    margin: 0 auto 25px;
+}
+.shift_energies_img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid rgba(150, 133, 228, 1);
+    object-fit: cover;
+    object-position: center;
+}
+.shift_energies_btn {
+    padding: 19px 20px !important;
+    margin-top: 35px !important;
+}
+
+/* analysis question27 */
+
+.relationship_destiny_img, .unclaimed_gift_img, .mapping_birthchart_symbol{
+    margin: 0 auto 15px;
+    display: block;
+}
+
+/* analysis qution35 */
+
+.analysis_question35_sub_text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #4B1596;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    margin: 15px 0 25px;
+}
+.mt_25{
+    margin-top: 25px;
+}
+.qution35_btn {
+    padding: 19px 20px;
+    margin-top: 35px;
+}
+
+/* analysis question36 */
+
+.birthchart_img_div{
+    position: relative;
+    margin: 50px auto 40px;
+    text-align: center;
+}
+.birthchart_img_div::after{
+    content: '';
+    background-image: url('../images/birthchart-img-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 548px;
+    height: 448px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.birthchart_img{
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    animation: rotateClockwise 10s linear infinite;
+}
+@keyframes rotateClockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.birthchart_btn_div{
+    max-width: 484px;
+    height: 150px;
+    margin: 0 auto 0;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+.birthchart_btn_div button{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 18px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #12111c80;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border: none;
+    width: fit-content;
+}
+/* all buttons positioned at the bottom initially */
+.float_btn {
+    position: absolute;
+    bottom: -40px;
+    opacity: 0;
+}
+
+/* KEYFRAMES to float up */
+@keyframes floatUp {
+    0%   { transform: translateY(50px); opacity: 0; }
+    10%  { opacity: 1; }
+    60%  { transform: translateY(-40px); opacity: 1; }
+    100% { transform: translateY(-80px); opacity: 0; }
+}
+
+/* LEFT buttons */
+.float_left {
+    left: 40%;
+}
+
+/* RIGHT buttons */
+.float_right {
+    right: 40%;
+}
+
+/* sequential timers */
+.float1 { animation: floatUp 3s ease-in-out forwards; }
+.float2 { animation: floatUp 3s ease-in-out forwards 3s; }
+.float3 { animation: floatUp 3s ease-in-out forwards 6s; }
+.float4 { animation: floatUp 3s ease-in-out forwards 9s; }
+
+.birthchart_btn_div button img{
+    flex-shrink: 0;
+}
+.birthchart_btn1{
+    margin: 0 0 10px 79px;
+}
+.birthchart_btn2{
+    margin: 0 0 0 auto;
+}
+.birthchart_btn3{
+    margin: -30px 0 10px;
+}
+.birthchart_btn4{
+    margin: 0 69px 0 auto;
+}
+.birthchart_btn_div button:hover{
+    background: rgba(125, 115, 192, 1);
+    color: #fff;
+}
+.birthchart_btn_div button:hover .default_img{
+    display: none !important;
+}
+.birthchart_btn_div button:hover .select_change_colorimg{
+    display: block !important;
+}
+.analysis_question6 .form-control {
+    margin: 10px 0 10px;
+}
+
+/* year change step */
+
+.year_change_icon{
+    margin: 0 auto 17px;
+}
+.transprent_btn{
+    font-size: 14px;
+    line-height: 19px;
+    color: #4B1596;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    margin: 20px auto 0;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #4B1596;
+    width: fit-content;
+    transition: 0.4s ease;
+}
+.transprent_btn:hover{
+    color: #4B1596;
+    transform: scale(1.1);
+}
+
+
+/* Email Step */
+.error, .error2, .color-ff0000{
+    color: #DE3163;
+}
+.email-wrapper {
+    position: relative;
+    width: 100%;
+}
+.email-items {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(23, 31, 41, 0.3), 0 0 4px 0 rgba(23, 31, 41, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(23, 31, 41, 0.3), 0 0 4px 0 rgba(23, 31, 41, 0.2);
+    left: 0;
+    max-height: 120px;
+    overflow: auto;
+    right: 0;
+    top: 100%;
+    z-index: 99;
+    padding: 0px;
+    background-color: white;
+    border-radius: 11px;
+    display: inline-block;
+    width: 80%;
+}
+.option {
+    text-align: left;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px groove
+}
+.option:hover {
+    background-color: #0dcaf0;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.spinner-grow {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-bottom;
+    border: 0.2em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-grow 0.75s linear infinite;
+}
+
+@keyframes spinner-grow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.last_step, .last_stepv2{
+    padding-top: 30px;
+}
+.last_step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.step-animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+.step-animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.back_btn {
+    width: 18px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* analysing profile */
+
+.analysing_profile{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    text-align: center;
+    min-height: 100vh;
+}
+  .progress-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto 0;
+  }
+  .progress-circle svg {
+    transform: rotate(-90deg); 
+    width: 200px;
+    height: 200px;
+  }
+
+  .progress-circle circle.bg {
+    fill: none;
+    stroke: #ffffff61;
+    stroke-width: 8;
+  }
+  
+  .progress-circle circle.progress {
+    fill: none;
+    stroke: #4B1596; 
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 339.292;
+    stroke-dashoffset: 339.292;
+    animation: loaderProgress 3s linear forwards;
+
+  }
+@keyframes loaderProgress {
+    from { stroke-dashoffset: 339.292; }
+    to { stroke-dashoffset: 0; }
+}
+
+/* Number animation */
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 28px;
+    user-select: none;
+}
+
+.select-dropdown select {
+    border: 2px solid #4b1596;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    margin: 10px;
+    color: #000;
+    text-align: center;
+}
+
+/* responsive */
+
+@media (max-width: 1399.98px) {
+    .analysis_question36{
+        padding-top: 49px;
+    }
+    .steps_title{
+        font-size: 25px;
+        line-height: 32.28px;
+    }
+    .start_quiz_step_img {
+        text-align: center;
+        margin-bottom: -128px;
+    }
+    .analysis_question17{
+        padding-top: 25px;
+    }
+    .question17_pattern_img {
+        margin: 0 auto 6px;
+    }
+    .analysis_question17 .mb_25 {
+        margin-bottom: 14px;
+    }
+    .shift_energies_img{
+        margin: 0 auto 16px;
+        width: 175px;
+        height: 175px;
+    }
+    .shift_energies_btn{
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width: 420.98px) {
+    .steps_title{font-size: 27px;}
+    .analysis_question4 {padding: 0 23px;}
+    .birthchart_img_div::after{width: 100%; height: 428px;}
+    .birthchart_btn_div button{padding: 18px 15px; gap: 7px;}
+    .birthchart_btn1 {margin: 0 0 10px 50px;}
+    .birthchart_btn4 {margin: 0 29px 0 auto;}
+    .analysis_question17 {
+        padding-top: 20px;
+    }
+    .shift_energies_img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 396.98px) {
+    .analysis_question4 {padding: 0 12px;}
+    .font-20 {font-size: 19px;}
+}
+
+@media (max-width: 385.98px) {
+    .year_step_content {padding: 0 0px;}
+    .steps_title {font-size: 26px;}
+    .font-22 {font-size: 20px;}
+    .start_quiz_step .font-20 {font-size: 19px;}
+    .analysis_question_title{font-size: 19px;}
+    .font-20 {font-size: 18px;}
+    .analysis_question15 .qutions_radios{padding: 17px 15px;}
+    .birthchart_btn_div button {padding: 17px 14px; gap: 5px;}
+    .birthchart_btn1 {margin: 0 0 10px 30px;}
+    .birthchart_btn4 {margin: 0 18px 0 auto;}
+    .analysis_question36{padding-top: 70px;}
+    .analysis_question36 .font-24 {font-size: 22px;}
+    .birthchart_img_div{margin: 40px auto 30px;}
+    .birthchart_img{width: 60%;}
+}
+@media (max-width: 365.98px) {
+    .steps_title {font-size: 24px;}
+    .startquiz_step_btn {padding: 19px 27px;}
+    .font-24 {font-size: 22px;}
+    .analysis_question15 .qutions_radios {padding: 17px 8px;}
+    .birthchart_btn_div button{font-size: 14px; padding: 15px 15px; gap: 4px;}
+}
+
+@media (max-height: 670.98px) {
+    .header {padding: 42px 0 25px;}
+    .start_quiz_step_content{margin: 22px 0 26px;}
+    .startquiz_step_btn {margin-top: 20px;}
+}
+
+
+/* money flow step */
+
+.money_flows_step, .year_change_step, .last_step, .last_stepv2{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    text-align: center;
+    min-height: 100vh;
+}
+.money_flow_img{
+    margin: 0 auto 15px
+}
+.money_flows_step .mb_25{
+    margin-bottom: 20px;
+}
+
+
+/* last stepv2 */
+
+.last_stepv2_icon{
+    margin: 0 auto 25px;
+}
+.mb_30{
+    margin-bottom: 30px;
+}
+.last_stepv2_bottom{
+    font-size: 20px;
+    line-height: 21px;
+    color: #4B1596;
+    font-family: "Crimson Pro", serif;
+    font-weight: 700;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+/* welcome step */
+
+.welcome_step{
+    padding-top: 150px;
+}
+.welcome_step_titel{
+    font-family: "Brygada 1918", serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #4B1596;
+    margin-bottom: 75px;
+}
+.welcome_step_logo{
+    width: 147px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* year step */
+
+.year_step_content{
+    padding: 0 4px;
+}
+.steps_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41.28px;
+    text-align: center;
+    font-family: "Brygada 1918", serif;
+    color: #452873;
+}
+.year_step_content .steps_title{
+    margin-bottom: 10px;
+}
+.steps_description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+}
+.year_calender{
+    margin: 30px auto 25px;
+}
+.steps_btn{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.5px;
+    letter-spacing: 2.4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(109.21deg, #4B1596 21.58%, #96A1D5 102.02%, #C7D3DA 168.35%);
+    border-radius: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 50px;
+    max-width: 328px;
+    margin: 0 auto;
+    transition: all 0.8s ease;
+}
+.steps_btn:hover{
+    transform: scale(1.1);
+
+}
+.steps_btn svg{
+    flex-shrink: 0;
+}
+.steps_btn:hover{
+    color: #fff;
+}
+
+/* start quiz step */
+
+.start_quiz_step{
+    padding: 0 8px 20px;
+}
+.start_quiz_step_content{
+    background: rgba(150, 161, 213, 0.3);
+    padding: 0px 10px 33px;
+    border-radius: 5px;
+    margin: 35px 0 30px;
+}
+.gredient-text{
+    background: linear-gradient(94.75deg, #452873 27.16%, #4B1596 143.44%);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.start_quiz_step_img{
+    text-align: center;
+    margin-bottom: -115px;
+}
+.start_quiz_step_content .steps_title{
+    margin-bottom: 7px;
+}
+.startquiz_step_btn{
+    margin-top: 25px;
+    padding: 19px 41px;
+}
+
+/* analysis question1 */
+
+.analysis_question1{
+    padding: 0 2px;
+}
+.analysis_question_title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    font-family: "Fenix", serif;
+    color: #020633;
+    margin-bottom: 35px;
+}
+.qutions_radios{
+    background: rgba(150, 161, 213, 0.3);
+    border-radius: 5px;
+    padding: 17px 20px;
+    min-height: 57px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.qutions_radios:hover{
+    transform: scale(1.04);
+}
+.qutions_radios .form-check-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    color: #020633;
+    position: relative;
+    z-index: 1;
+}
+.qutions_radios img{
+    position: relative;
+    z-index: 1;
+}
+.select_change_colorimg{
+    display: none !important;
+}
+.qutions_radios .form-check-input, .qutions_img_radios .form-check-input{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    position: absolute;
+    border: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.qutions_radios .form-check-input:checked[type=radio] {
+    background-image: none;
+    background-color: rgba(125, 115, 192, 1);
+}
+.qutions_radios .form-check-input:checked ~ .form-check-label, .qutions_img_radios .form-check-input:checked + .form-check-label{
+    color: #fff;
+    font-weight: 700;
+}
+.qutions_radios .form-check-input:checked ~ .select_change_colorimg{
+    display: block !important;
+}
+.qutions_radios .form-check-input:checked ~ .default_img{
+    display: none;
+}
+.form-check-input:focus{
+    box-shadow: unset;
+}
+
+/* analysis question2 */
+
+.analysis_question2{
+    padding: 0 2px;
+}
+.analysis_question2_content{
+    text-align: center;
+}
+.analysis_question2_title{
+    margin-bottom: 8px;
+}
+.qutions_img_radios_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0 33px;
+}
+.qutions_img_radios{
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+.qutions_img_radios .form-check-label{
+    background: rgba(150, 161, 213, 0.3);
+    border-radius: 5px;
+    padding: 14px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    color: #020633;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.qutions_img_radios img{
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin-top: 28px;
+    transition: 0.3s ease;
+}
+.analysis_question2 .qutions_img_radios img{
+    border-radius: 0 0 5px 5px;
+}
+.qutions_img_radios .form-check-input:checked[type=radio]{
+    background-image: unset;
+}
+.qutions_img_radios .form-check-input:checked + .form-check-label{
+    background: rgba(125, 115, 192, 1);
+}
+.qutions_img_radios:hover .form-check-label{
+    background: rgba(125, 115, 192, 1);
+}
+.qutions_img_radios:hover .form-check-label{
+    color: #fff;
+}
+.qutions_img_radios:hover .default_img{
+    display: none !important;
+}
+.qutions_img_radios:hover .select_change_colorimg{
+    display: block !important;
+}
+.form-control{
+    background-color: rgba(150, 161, 213, 0.3);
+    color: #4C4C4C;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border-radius: 5px;
+    border: none;
+    padding: 17px 18px;
+}
+.form-control::-webkit-input-placeholder{
+    color: #4c4c4c99;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border-radius: 5px;
+}
+.form-control::placeholder{
+    color: #4c4c4c99;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border-radius: 5px;
+}
+.form-control:focus {
+    color: #4C4C4C;
+    background-color: rgba(150, 161, 213, 0.6);
+    border-color: 0;
+    outline: 0;
+    box-shadow: unset;
+}
+.qution2_btn{
+    padding: 19px 25px;
+    margin-top: 25px;
+}
+.qutions_img_radios .form-check-input:checked + label .select_change_colorimg {
+  display: block !important;
+}
+
+.qutions_img_radios .form-check-input:checked + label .default_img {
+  display: none !important;
+}
+
+
+/* analysis question3 */
+
+.analysis_question3{
+    padding: 0 10px;
+    text-align: center;
+}
+.analysis_question3 .qutions_img_radios_row{
+    gap: 20px;
+}
+.analysis_question3 .qutions_img_radios{
+    width: 45%;
+    height: 100%;
+}
+.analysis_question3 .qutions_img_radios .form-check-label{
+    padding: 20px 10px 17px;
+    min-height: 206px;
+}
+.analysis_question3 .qutions_img_radios img{
+    margin: 30px auto 0;
+}
+.analysis_question3 .qutions_img_radios .form-check-input:checked + .form-check-label{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+/* analysis question4 */
+
+.analysis_question4{
+    padding: 0 30px;
+}
+.analysis_question4_title{
+    margin-bottom: 10px;
+}
+.analysis_question4_content{
+    padding-top: 25px;
+}
+.clock_timer{
+    margin: 15px 0 10px;
+}
+.qution_step_checkbox{
+    padding-left: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.qution_step_checkbox .form-check-label{
+    font-size: 12px;
+    line-height: 21px;
+    color: #4C4C4C;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    padding-left: 10px;
+}
+.qution_step_checkbox .form-check-input{
+    background-color: rgba(217, 220, 238, 1);
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border-radius: 2px;
+    border: 0;
+    flex-shrink: 0;
+}
+
+/* analysis question6 */
+
+.analysis_question6{
+    padding: 0 4px;
+} 
+.analysis_question6 .form-control{
+    margin: 10px 0 40px;
+}
+.analysis_question6_content > p.font-12{
+    font-size: 15px;
+}
+.analysis_question6_content > p svg{
+    padding-bottom: 2px;
+}
+
+/* analysis question7  */
+
+.analysis_question7{
+    padding: 0 4px;
+}
+.analysis_question7_title{
+    margin-bottom: 35px;
+}
+.analysis_question7 .qutions_radios, .analysis_question11 .qutions_radios{
+    justify-content: center;
+}
+.analysis_question7 .qutions_radios .form-check-input:checked + .form-check-label, .analysis_question11 .qutions_radios .form-check-input:checked + .form-check-label, .analysis_question12 .qutions_radios .form-check-label{
+    color: #fff;
+    font-weight: 600;
+}
+
+/* analysis question12 */
+
+.analysis_question12 .qutions_radios .form-check-label{
+    color: #12111C;
+    font-weight: 400;
+}
+
+
+/* analysis question16 */
+
+.analysis_question16 .qutions_img_radios .form-check-label{
+    font-size: 18px;
+}
+.analysis_question16_title{
+    margin-bottom: 35px;
+}
+.analysis_question16 .qutions_img_radios{
+    width: 43%;
+}
+.analysis_question16 .qutions_img_radios img{
+    margin: 35px auto 0;
+}
+.analysis_question16 .qutions_img_radios .form-check-input:checked + .form-check-label{
+    font-weight: 600;
+}
+
+/* analysis question19 */
+
+.analysis_question19{
+    padding: 0 10px;
+}
+
+/* analysis question21 */
+
+.analysis_question21 .qutions_img_radios_row {
+    gap: 20px;
+}
+.analysis_question21 .qutions_img_radios{
+    width: 45%;
+    height: 100%;
+}
+.analysis_question21 .qutions_img_radios .form-check-label{
+    padding: 0 0 15px;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.analysis_question21 .qutions_img_radios .form-check-label span{
+    font-size: 16px;
+}
+.analysis_question21 .qutions_img_radios img{
+    margin-top: 0;
+    border-radius: 5px 0 0 0;
+}
+
+/* analysis_question24 */
+
+.analysis_question24 .qutions_img_radios .form-check-label {
+    font-size: 18px;
+    min-height: 204px;
+    display: flex;
+    flex-direction: column;
+}
+.analysis_question24 .qutions_img_radios img {
+    margin: auto auto 0;
+}
+.analysis_question24 .qutions_img_radios{
+    width: 43%;
+}
+.analysis_question24 .qutions_img_radios .form-check-input:checked + .form-check-label {
+    font-weight: 600;
+}
+
+/* analysis question37 */
+
+.analysis_question37{
+    display: flex;
+    flex-direction: column;
+    min-height: 82vh;
+}
+.analysis_question37_flex_innerdiv{
+    flex: 1;
+}
+.analysis_question37_title{
+    margin-bottom: 20px;
+}
+.analysis_question37 .form-control{
+    margin: 10px 0 10px;
+}
+.analysis_question37 .px_10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.email_input_notetext{
+    font-size: 12px;
+    line-height: 14px;
+    color: #8C8A8A;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+.analysis_question37_bottom_text{
+    font-family: "Crimson Pro", serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #8C8A8A;
+    margin-bottom: 0;
+    padding: 10px 43px;
+}
+
+/* full body width steps */
+
+/* analysis question8 */
+
+.analysis_question8{
+    background: rgba(150, 161, 213, 0.6);
+    min-height: 100vh;
+    padding-top: 158px;
+}
+.analysis_hourglass_img{
+    margin: 50px auto 0;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+}
+.analysis_hourglass_img::after{
+    content: '';
+    background-image: url('../images/analysis-loader-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 302px;
+    height: 380px;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* hourglass animation */
+
+.hourglass{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    animation: rotateHourglass 3s ease-in-out infinite;
+}
+
+@keyframes rotateHourglass {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* analysis question9 */
+
+.analysis_question9{
+    background: rgba(150, 161, 213, 0.6);
+    padding: 158px 0 0;
+    min-height: 100vh;
+}
+.analysis_warning_img{
+    text-align: center;
+}
+
+/* analysis question10 */
+
+.analysis_question10{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    text-align: center;
+    min-height: 100vh;
+}
+.karmic_loop_img{
+    margin-bottom: 15px;
+}
+.mb_25{
+    margin-bottom: 25px;
+}
+.analysis_question10_desc{
+    margin: 0 auto 12px;
+    max-width: 400px;
+}
+.analysis_question10_desc:last-child{
+    margin-bottom: 0;
+}
+.qution10_btn{
+    padding: 19px 20px;
+    margin-top: 25px;
+}
+
+/* analysis question17 */
+
+.analysis_question17, .analysis_question27, .analysis_question35, .analysis_question36{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    min-height: 100vh;
+}
+.question17_pattern_img{
+    margin: 0 auto 15px;
+    display: block;
+}
+.shift_energies_img{
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    position: relative;
+    margin: 0 auto 25px;
+}
+.shift_energies_img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid rgba(150, 133, 228, 1);
+    object-fit: cover;
+    object-position: center;
+}
+.shift_energies_btn {
+    padding: 19px 20px !important;
+    margin-top: 35px !important;
+}
+
+/* analysis question27 */
+
+.relationship_destiny_img, .unclaimed_gift_img, .mapping_birthchart_symbol{
+    margin: 0 auto 15px;
+    display: block;
+}
+
+/* analysis qution35 */
+
+.analysis_question35_sub_text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #4B1596;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    margin: 15px 0 25px;
+}
+.mt_25{
+    margin-top: 25px;
+}
+.qution35_btn {
+    padding: 19px 20px;
+    margin-top: 35px;
+}
+
+/* analysis question36 */
+
+.birthchart_img_div{
+    position: relative;
+    margin: 50px auto 40px;
+    text-align: center;
+}
+.birthchart_img_div::after{
+    content: '';
+    background-image: url('../images/birthchart-img-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 548px;
+    height: 448px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.birthchart_img{
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    animation: rotateClockwise 10s linear infinite;
+}
+@keyframes rotateClockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.birthchart_btn_div{
+    max-width: 484px;
+    height: 80px;
+    margin: 0 auto 0;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+.birthchart_btn_div button{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 18px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #12111c80;
+    font-weight: 400;
+    font-family: "Fenix", serif;
+    border: none;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+ .birthchart_btn1 {
+    animation-name: slideInBottom;
+    animation-delay: 0s;
+  }
+
+  .birthchart_btn2 {
+    animation-name: slideInRight;
+    animation-delay: 2s;
+  }
+
+  .birthchart_btn3 {
+    animation-name: slideInLeft;
+    animation-delay: 4s;
+  }
+
+  .birthchart_btn4 {
+    animation-name: slideInBottom;
+    animation-delay: 6s;
+  }
+
+  @keyframes slideInBottom {
+    0%   { opacity: 0; transform: translateY(40px); }
+    10%  { opacity: 1; transform: translateY(0); }
+    25%  { opacity: 1; transform: translateY(0); }
+    35%  { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 0; }
+  }
+
+  @keyframes slideInRight {
+    0%   { opacity: 0; transform: translateX(40px); }
+    10%  { opacity: 1; transform: translateX(0); }
+    25%  { opacity: 1; transform: translateX(0); }
+    35%  { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 0; }
+  }
+
+  @keyframes slideInLeft {
+    0%   { opacity: 0; transform: translateX(-40px); }
+    10%  { opacity: 1; transform: translateX(0); }
+    25%  { opacity: 1; transform: translateX(0); }
+    35%  { opacity: 0; transform: translateX(20px); }
+    100% { opacity: 0; }
+  }
+
+.birthchart_btn_div button img{
+    flex-shrink: 0;
+}
+.birthchart_btn1{
+    margin: 0 0 10px 79px;
+}
+.birthchart_btn2{
+    margin: 0 0 0 auto;
+}
+.birthchart_btn3{
+    margin: -30px 0 10px;
+}
+.birthchart_btn4{
+    margin: 0 69px 0 auto;
+}
+.birthchart_btn_div button:hover{
+    background: rgba(125, 115, 192, 1);
+    color: #fff;
+}
+.birthchart_btn_div button:hover .default_img{
+    display: none !important;
+}
+.birthchart_btn_div button:hover .select_change_colorimg{
+    display: block !important;
+}
+.analysis_question6 .form-control {
+    margin: 10px 0 10px;
+}
+
+/* year change step */
+
+.year_change_icon{
+    margin: 0 auto 17px;
+}
+.transprent_btn{
+    font-size: 14px;
+    line-height: 19px;
+    color: #4B1596;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    margin: 20px auto 0;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #4B1596;
+    width: fit-content;
+    transition: 0.4s ease;
+}
+.transprent_btn:hover{
+    color: #4B1596;
+    transform: scale(1.1);
+}
+
+
+/* Email Step */
+.error, .error2, .color-ff0000{
+    color: #DE3163;
+}
+.email-wrapper {
+    position: relative;
+    width: 100%;
+}
+.email-items {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(23, 31, 41, 0.3), 0 0 4px 0 rgba(23, 31, 41, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(23, 31, 41, 0.3), 0 0 4px 0 rgba(23, 31, 41, 0.2);
+    left: 0;
+    max-height: 120px;
+    overflow: auto;
+    right: 0;
+    top: 100%;
+    z-index: 99;
+    padding: 0px;
+    background-color: white;
+    border-radius: 11px;
+    display: inline-block;
+    width: 80%;
+}
+.option {
+    text-align: left;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px groove
+}
+.option:hover {
+    background-color: #0dcaf0;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.spinner-grow {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-bottom;
+    border: 0.2em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spinner-grow 0.75s linear infinite;
+}
+
+@keyframes spinner-grow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.last_step, .last_stepv2{
+    padding-top: 30px;
+}
+.last_step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.step-animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+.step-animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.back_btn {
+    width: 18px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* analysing profile */
+
+.analysing_profile{
+    background: rgba(150, 161, 213, 0.6);
+    padding-top: 110px;
+    text-align: center;
+    min-height: 100vh;
+}
+  .progress-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto 0;
+  }
+  .progress-circle svg {
+    transform: rotate(-90deg); 
+    width: 200px;
+    height: 200px;
+  }
+
+  .progress-circle circle.bg {
+    fill: none;
+    stroke: #ffffff61;
+    stroke-width: 8;
+  }
+  
+  .progress-circle circle.progress {
+    fill: none;
+    stroke: #4B1596; 
+    stroke-width: 8;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s ease;
+  }
+
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 28px;
+    user-select: none;
+  }
+
+
+
+/* responsive */
+
+@media (max-width: 1399.98px) {
+    .analysis_question36{
+        padding-top: 49px;
+    }
+    .steps_title{
+        font-size: 25px;
+        line-height: 32.28px;
+    }
+    .start_quiz_step_img {
+        text-align: center;
+        margin-bottom: -128px;
+    }
+    .analysis_question17{
+        padding-top: 25px;
+    }
+    .question17_pattern_img {
+        margin: 0 auto 6px;
+    }
+    .analysis_question17 .mb_25 {
+        margin-bottom: 14px;
+    }
+    .shift_energies_img{
+        margin: 0 auto 16px;
+        width: 175px;
+        height: 175px;
+    }
+    .shift_energies_btn{
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width: 420.98px) {
+    .steps_title{font-size: 27px;}
+    .analysis_question4 {padding: 0 23px;}
+    .birthchart_img_div::after{width: 100%; height: 428px;}
+    .birthchart_btn_div button{padding: 18px 15px; gap: 7px;}
+    .birthchart_btn1 {margin: 0 0 10px 50px;}
+    .birthchart_btn4 {margin: 0 29px 0 auto;}
+    .analysis_question17 {
+        padding-top: 20px;
+    }
+    .shift_energies_img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 396.98px) {
+    .analysis_question4 {padding: 0 12px;}
+    .font-20 {font-size: 19px;}
+}
+
+@media (max-width: 385.98px) {
+    .year_step_content {padding: 0 0px;}
+    .steps_title {font-size: 26px;}
+    .font-22 {font-size: 20px;}
+    .start_quiz_step .font-20 {font-size: 19px;}
+    .analysis_question_title{font-size: 19px;}
+    .font-20 {font-size: 18px;}
+    .analysis_question15 .qutions_radios{padding: 17px 15px;}
+    .birthchart_btn_div button {padding: 17px 14px; gap: 5px;}
+    .birthchart_btn1 {margin: 0 0 10px 30px;}
+    .birthchart_btn4 {margin: 0 18px 0 auto;}
+    .analysis_question36{padding-top: 70px;}
+    .analysis_question36 .font-24 {font-size: 22px;}
+    .birthchart_img_div{margin: 40px auto 30px;}
+    .birthchart_img{width: 60%;}
+}
+@media (max-width: 365.98px) {
+    .steps_title {font-size: 24px;}
+    .startquiz_step_btn {padding: 19px 27px;}
+    .font-24 {font-size: 22px;}
+    .analysis_question15 .qutions_radios {padding: 17px 8px;}
+    .birthchart_btn_div button{font-size: 14px; padding: 15px 15px; gap: 4px;}
+}
+
+@media (max-height: 670.98px) {
+    .header {padding: 42px 0 25px;}
+    .start_quiz_step_content{margin: 22px 0 26px;}
+    .startquiz_step_btn {margin-top: 20px;}
+}
